@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+     font-family: Arial;
+     padding: 10px;
+     }
+
+body {
+      font-family: Arial;
+      padding: 10px;
+      background:rgba(235, 246, 246) 
+      }
+        
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      }
+
+  li {
+      float: left;
+      }
+
+  li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: underline;
+        }
+
+  li a:hover {
+             background-color: #111;
+             }
+
+  .active {
+          background-color: red;
+          }
+
+
+   .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+            }
+
+
+table {
+       border-collapse: collapse;
+       width: 100%;
+       }
+
+th, td {
+       padding: 8px;
+       text-align: left;
+       border-bottom: 1px solid #ddd;
+       }
+
+tr:hover {background-color: coral;}
+
+.header h1 {
+           font-size: 50px;
+           }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+  .topnav a {
+             float: left;
+             display: block;
+             background:rgba(0, 128, 0, 0.3)
+             text-align; center: 
+             padding: 14px 16px:
+             text-decoration: none; 
+             }
+
+
+.topnav a:hover {
+                 background-color: #ddd;
+                 color: black;
+                 }
+
+
+.leftcolumn {   
+             float: left;
+             width: 75%;
+             }
+
+
+.rightcolumn {
+              float: left;
+              width: 25%;
+              background-color:whitesmoke;
+              padding-left: 20px;
+              }
+
+
+.fakeimg {
+          background-color: whitesmoke;
+          width: 100%;
+          padding: 20px;
+          }
+
+
+.card {
+       background-color: lightblue;
+       padding: 20px;
+       margin-top: 20px;
+       }
+
+
+.row::after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+
+.footer {
+         padding: 20px;
+         text-align: center;
+         background: #ddd;
+         margin-top: 20px;
+         }
+
+
+@media screen and (max-width: 800px) {
+ .leftcolumn, .rightcolumn {   
+                           width: 100%;
+                           padding: 0;
+                           }
+
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+             float: none;
+             width: 100%;
+             }
+
+  img {
+      float: left;
+      }
+
+ .text {
+       margin-top:90px; 
+       text-align: right;
+       }
+   
+  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Agencias de viajes</h1>
+  <p>TODO LO QUE LE PIDES AL VERANO, ESTÁ AQUÍ</p>
+</div>
+
+<div class="topnav">
+  <ul>
+      <li><a href="" class="active">Inicio</a></li>
+      <li><a href="https://www.booking.com/index.es.html?aid=397594&label=gog235jc-1DCAEY9gMoggI46AdIClgDaEaIAQGYAQq4ARfIAQzYAQPoAQH4AQKIAgGoAgO4Ary_s6MGwAIB0gIkYmE0MDY5ODEtYjBkMC00OWQ1LTg2MDAtNTA3MzhjZGEzMGRk2AIE4AIB&sid=b221a4829a7caedde71e59ea79f57aac&click_from_logo=1">Hoteles y apartamentos</a></li>
+      <li><a href="https://www.elcorteingles.es/centroscomerciales/en/eci/servicios/customer-service">Asistencia al cliente</a></li>
+      <li><a href="https://www.viajeselcorteingles.es/vuelos/ofertas-vuelos/?gad=1&gclid=CjwKCAjw67ajBhAVEiwA2g_jEKbONDXuDAqH_mGC3a6S96p0JO-vxf1ePurcZncQnPUuyuL7FV3N5RoC3EgQAvD_BwE">Ofertas </a></li>
+     </ul>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="hawaii"> Hawaii</h2>
+      <h4 class="cinco"> Hawaii y sus playas</h4>
+      <div class="fakeimg" style="height:200px;"> 
+        <center> <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Papakolea_Beach_-_South_Point%2C_Kona_%28Big_Island%29%2C_Hawaii.jpg/1020px-Papakolea_Beach_-_South_Point%2C_Kona_%28Big_Island%29%2C_Hawaii.jpg" alt="Hawaii bandera" height="140"></center></div>
+      
+      <p>Es el hogar de los volcanes más activos del mundo y un hermoso lugar para apreciar la vida silvestre. Es la mejor isla de Hawai para avistar hermosos animales en su hábitat natural. Podrás ver tortugas marinas.</p>
+      <p> La playa más popular es una playa de arena verde que se localiza cerca de Ka Lae (en inglés: South Point), en el distrito Kaʻū de la <a href="https://es.wikipedia.org/wiki/Isla_de_Haw%C3%A1i"> isla de Hawái.</a> Se la conoce también con el sobrenombre de Big Island (Isla Grande o Isla Mayor)</p>
+    </div>
+    <div class="card">
+      
+
+      <h2 class="florida"> Florida</h2>
+     <p>Este destino con su clima tropical es ideal para visitar en cualquier <strong>época del año</strong> y es uno de los más elegidos por los visitantes que desean un lugar que incluya, descanso, diversión y experiencias inolvidables al lado de familia y amigos. El <strong>Parque Nacional de los Everglades</strong> es una de las grandes maravillas naturales del estado de Florida. De hecho, pudiéramos afirmar que un viaje a Florida no estaría completo sin la visita a los Everglades.</p>
+
+
+<p> <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_640,q_75,w_640,x_5100,y_4862/v1/clients/orlandofl/8731_castle_landing_page_image_nu_2a8f8e6a-a1f9-45fd-8eca-596c92d04a7c.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+<class="text"> <em> Para más información pulse aquí:<a href="https://es.wikipedia.org/wiki/Isla_de_Haw%C3%A1i"> FloridaOrlando.com</a></em> </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Precios más baratos</h2>
+
+  <table>
+  <tr>
+    <th>Paises </th>
+    <th>Precios</th>
+    <th>Descuentos</th>
+  </tr>
+  <tr>
+    <td>Asia</td>
+    <td>1900$</td>
+    <td>-16%</td>
+  </tr>
+  <tr>
+    <td>Japón</td>
+    <td>900$</td>
+    <td>-30%</td>
+  </tr>
+  <tr>
+    <td>Londres</td>
+    <td>300$</td>
+    <td>-19%</td>
+  </tr>
+  <tr>
+    <td>Florida</td>
+    <td>290$</td>
+    <td>-43,7%</td>
+  </tr>
+</table>
+  
+      
+    </div>
+    <div class="card">
+      <h3>Mejores Hoteles</h3>
+      <ul>
+      <li>Marina Resort Florida</li>
+      <li>Hawi Beachy three</li>
+      <li>FloriLondi 2000</li>
+      <li>Florida Gardens</li>
+      </ul>
+
+    </div>
+    <div class="card">
+      <h3>Menús</h3>
+      <p><a href="https://floridapark.es/en/carta-terraza/"> Florida Meat </a>
+      <p><a href="https://www.floridas-seafood.com/menu"> Florida beef </a>
+      <p><a href="https://www.tripadvisor.com/Restaurants-g29222-Oahu_Hawaii.html"> Oahu Restaurant </a>
+       <p><a href="https://www.tripadvisor.com/Restaurants-g60982-Honolulu_Oahu_Hawaii.html"> Honolulu Restaurant </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+ <a title="Insta" href="https://www.instagram.com/vueling/?hl=en"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/769px-Instagram-Icon.png" height="30px" /></a>
+</div>
+
+</body>
+</html>
+
+
